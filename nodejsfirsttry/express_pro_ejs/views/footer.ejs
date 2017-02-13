@@ -1,0 +1,40 @@
+<footer id="zan-footer">
+  <div class="container">
+
+    <!-- 版权信息 -->
+        Copyright © 2013 <a target="_blank" title="杭州网站建设" href="http://www.yeahzan.com/">佚站互联</a> YEAHZAN.COM - 用心创造每一站, <a target="_blank" title="杭州网站建设" href="http://www.yeahzan.com/">杭州网站建设</a>. All Rights Reserved. Theme By <a href="http://www.yeahzan.com/"  target="_blank">YeahZan</a> --可配置
+    <!-- 版权信息结束 -->
+
+    <!--统计代码-->
+     <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb8510898b22f723bada9539bb4177030' type='text/javascript'%3E%3C/script%3E"));--后台配置
+    <!--统计代码结束-->
+
+  </div>
+</footer>
+
+<!-- 回到顶端 -->
+<div id="zan-gotop">
+  <i class="fa fa-angle-up"></i>
+</div>
+<!-- 回到顶端结束 -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var infinite_scroll = "{\"loading\":{\"msgText\":\"\",\"finishedMsg\":\"<p class=\\\"alert alert-danger\\\"><i class=\\\"fa fa-warning\\\"><\\\/i> \\u5185\\u5bb9\\u52a0\\u8f7d\\u5b8c\\u6bd5<\\\/p>\",\"img\":\"http:\\\/\\\/localhost\\\/zanblog\\\/wp-content\\\/plugins\\\/infinite-scroll\\\/img\\\/ajax-loader.gif\"},\"nextSelector\":\"#load-more\",\"navSelector\":\"#load-more\",\"itemSelector\":\".article\",\"contentSelector\":\"#article-list\",\"debug\":false,\"behavior\":\"twitter\",\"callback\":\"jQuery(\\\"#load-more\\\").removeClass(\\\"disabled\\\");\\r\\njQuery(\\\"#load-more i\\\").removeClass(\\\"fa fa-spinner\\\");\\r\\njQuery(\\\"#load-more attr\\\").text(\\\"\\u52a0\\u8f7d\\u66f4\\u591a\\\");\"}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.yeahzan.com/zanblog/wp-content/plugins/infinite-scroll/js/front-end/jquery.infinitescroll.js?ver=2.6.1'></script>
+<script type='text/javascript' src='http://www.yeahzan.com/zanblog/wp-content/plugins/infinite-scroll/behaviors/manual-trigger.js?ver=2.6.1'></script>
+<script type='text/javascript' src='http://www.yeahzan.com/zanblog/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=2.3'></script>
+<script type='text/javascript' src='http://www.yeahzan.com/zanblog/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=2.3'></script>
+<script type="text/javascript">
+// Because the `wp_localize_script` method makes everything a string
+infinite_scroll = jQuery.parseJSON(infinite_scroll);
+
+jQuery( infinite_scroll.contentSelector ).infinitescroll( infinite_scroll, function(newElements, data, url) { eval(infinite_scroll.callback); });
+</script>
+
+</body>
+</html>
